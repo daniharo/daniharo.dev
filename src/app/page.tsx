@@ -10,7 +10,7 @@ export default function Home() {
     <main
       className={clsx(
         inter.className,
-        "ml-8 flex h-screen flex-col items-start justify-center md:flex-row md:items-center"
+        "mx-8 flex h-screen flex-col items-start justify-center self-center md:ml-16 md:flex-row md:items-center"
       )}
     >
       <section className="flex flex-col">
