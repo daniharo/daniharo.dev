@@ -10,15 +10,15 @@ export default function Home() {
     <main
       className={clsx(
         inter.className,
-        "flex h-screen flex-col items-center justify-center md:flex-row"
+        "ml-8 flex h-screen flex-col items-start justify-center md:flex-row md:items-center"
       )}
     >
-      <section className="ml-8 flex flex-col">
+      <section className="flex flex-col">
         <span className="mb-3 text-5xl font-semibold">I&apos;m Dani.</span>
         <span>Full-stack dev.</span>
         <span>Creating awesome experiences at Appfluence.</span>
       </section>
-      <section className="flex flex-1 justify-center gap-4">
+      <section className="mt-8 flex justify-center gap-4 md:flex-1">
         <SocialButton href="https://github.com/daniharo/">
           <Github />
         </SocialButton>
